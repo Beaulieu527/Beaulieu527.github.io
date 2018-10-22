@@ -1,11 +1,11 @@
 # Site settings
-author: beaulieudev
-title: 
+author: Justin Beaulieu
+title: Day 1
 header-img: img/home-bg.png
 email: beaulieudev@gmail.com
-copyright_name: beaulieudev
+copyright_name: Justin Beaulieu
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Fresh mind ready to sculpt.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  Beaulieu527
