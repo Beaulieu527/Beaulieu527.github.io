@@ -1,0 +1,52 @@
+---
+layout: post
+title:      "Bang Bang "!""
+date:       2018-12-16 03:43:06 +0000
+permalink:  bang_bang
+---
+
+
+
+One thing I have been learning about I thought was very interesting in Ruby is the Bang operator at first it was a weird concept for me to understand until it was fully explained. Here is a pretty simple explanation. 
+
+ Let's take a look using the bang operator in this example:
+
+```
+name = "Ruby Master"
+puts name.downcase
+puts name
+```
+
+This will output:
+
+```
+ruby master
+Ruby Master
+```
+
+
+As you can see the method downcase has returned a new String which is the lowercase version of the String that the method is being called on. When we output the original String on the next line we can then see that it’s still the same the method downcase does not modify the String.
+
+However, there also are variants of some of these methods, which end in an exclamation mark !. These methods are called “bang methods” and they usually modify the object that they’re being called on.
+
+Bang methods end with an exclamation mark, and often modify the object they are called on.
+
+For example next to the method downcase Strings also have a method downcase!.
+
+Let’s try it:
+
+```
+name = "Ruby Master"
+puts name.downcase!
+puts name
+```
+
+This will output:
+
+```
+ruby master
+ruby master 
+```
+
+As you can see calling the method downcase! on the second line has modified the String itself and also returned the new downcased version.
+
