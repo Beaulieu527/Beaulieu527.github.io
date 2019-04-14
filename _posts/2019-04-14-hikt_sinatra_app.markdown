@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Hikt sinatra app"
-date:       2019-04-14 20:41:36 +0000
+date:       2019-04-14 16:41:37 -0400
 permalink:  hikt_sinatra_app
 ---
 
 
-For this project, I built a full MVC Sinatra application. this application is for people who love hiking. This app allows  you to do a couple of things.
+For this project, I built a full MVC Sinatra application. this application is for people who love hiking. Hikt allows  you to do a couple of things.
 
 * Sign up 
 
