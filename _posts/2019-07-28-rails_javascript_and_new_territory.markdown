@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails JavaScript & new territory."
-date:       2019-07-28 23:53:16 +0000
+date:       2019-07-28 19:53:17 -0400
 permalink:  rails_javascript_and_new_territory
 ---
 
