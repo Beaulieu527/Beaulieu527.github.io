@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Big O Notation"
-date:       2019-12-17 01:12:54 +0000
+date:       2019-12-16 20:12:55 -0500
 permalink:  big_o_notation
 ---
 
