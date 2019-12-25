@@ -1,12 +1,9 @@
 ---
 layout: post
-title:      "Linked Lists "
+title:      "Linked Lists"
 date:       2019-12-24 21:58:53 -0500
 permalink:  linked_lists_vs_arrays
 ---
-
-
-**Linked Lists And Common fucntions**
 
 
 The main difference from an Array is that Linked Lists are not indexed.
