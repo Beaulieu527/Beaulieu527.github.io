@@ -1,26 +1,26 @@
 ---
 layout: post
-title:      "**#Linked Lists Vs. Arrays**"
-date:       2019-12-25 02:58:53 +0000
+title:      "Linked Lists Vs. Arrays"
+date:       2019-12-24 21:58:53 -0500
 permalink:  linked_lists_vs_arrays
 ---
 
 
-Linked Lists And Common fucntions
+**Linked Lists And Common fucntions**
 
 
 The main difference from an Array is that Linked Lists are not indexed.
 The Linked List doesn’t hold a reference to all the items that it stores, it usually only contains references to its head (first element) and/or tail (last item). Each item of the Linked List is responsible for storing a reference to the next and previous element of the list.
 
-# Adding/removing items is usually faster****
+**# Adding/removing items is usually faster**
 Adding and removing items from a non-indexed list is usually faster since it doesn’t need to rebuild the index every time the items change, it just needs to update the references to the next and/or previous element.
 
-# **Iteration can be slower**
+**# Iteration can be slower**
 
 The lack of an index and the simple structure can be a drawback since you can’t skip to a certain position on the list some operations will require iterating over most or all of the list elements. 
 
 
-# Creating a Linked List
+**# Creating a Linked List**
 ```
 class Node{
     constructor(val){
@@ -38,7 +38,7 @@ class SinglyLinkedList{
 ```
 		
 		
-# Adding item to end of a Linked List
+**# Adding item to end of a Linked List**
 ```
 push(val){
 
@@ -55,7 +55,7 @@ push(val){
 		return this 
 }
 ```
-#    Removing last item in a Linked List
+**#    Removing last item in a Linked List**
 ```
 pop(){
 		if(this.head == null){
@@ -91,7 +91,7 @@ pop(){
             this.length += 1
             return this
     }
-# Removing item from the beginning of a Linked List
+**# Removing item from the beginning of a Linked List**
 ```
 shift(){
 
@@ -115,7 +115,7 @@ shift(){
 
 ```
 
-# Finding Items in a Linked List
+**# Finding Items in a Linked List**
 
 ```
 get(id){
@@ -134,7 +134,7 @@ get(id){
 
 ```
 
-# Inserting into A linked List
+**# Inserting into A linked List**
 
 ```
 insert(id, value){
@@ -161,7 +161,7 @@ insert(id, value){
 		return true
 }
 ```
-# Removing items in a Linked List
+**# Removing items in a Linked List**
 ```
 remove(id){
 		if(id < 0 || id >= this.length){
