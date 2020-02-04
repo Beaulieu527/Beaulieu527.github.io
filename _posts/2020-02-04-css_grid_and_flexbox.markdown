@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Css Grid and Flexbox"
-date:       2020-02-04 20:14:53 +0000
+date:       2020-02-04 15:14:54 -0500
 permalink:  css_grid_and_flexbox
 ---
 
