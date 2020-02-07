@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Gatekeeper of the mac "
-date:       2020-02-07 20:55:10 +0000
+date:       2020-02-07 15:55:11 -0500
 permalink:  gatekeeper_of_the_mac
 ---
 
